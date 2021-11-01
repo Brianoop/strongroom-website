@@ -961,7 +961,8 @@ h2 {
   }
 
   .faqs-section div {
-    width: 100vw;
+    width: 90vw;
+    margin: 1rem;
   }
 
   .faqs-section .question {
@@ -972,7 +973,7 @@ h2 {
   }
 
   .faqs-section .answer {
-    margin-left: 1rem;
+    /* margin-left: 0.5rem; */
     margin-right: 1rem;
     font-size: 1.2rem;
   }

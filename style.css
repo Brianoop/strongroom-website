@@ -914,7 +914,7 @@ h2 {
 
 .strongroom-features div p {
   font-size: 1.2rem;
-  text-align: justify;
+  text-align: center;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {

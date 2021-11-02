@@ -117,7 +117,7 @@ section {
   color: #011c39;
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   .toggle-button {
     display: flex;
   }
@@ -206,7 +206,7 @@ section {
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   .section-title {
     font-size: 1.5rem;
     text-align: center;
@@ -239,13 +239,15 @@ section {
   }
 
   .why-strongroom div p {
-    font-size: 1.1rem;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    font-size: 1.2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
   .section-title {
     font-size: 1.3rem;
     text-align: center;
@@ -852,6 +854,12 @@ h2 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  .what-is-strongroom p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+  }
 }
 
 /* End of What is StrongRoom Section  */
@@ -866,6 +874,7 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .strongroom-features  {
@@ -880,7 +889,7 @@ h2 {
   padding-bottom: .5rem;
   padding-top: .5rem;
   height: 15rem;
-  width: 25vw;
+  width: 25vw !important;
   margin: 2rem;
   border-radius: 5px;
   display: flex;
@@ -909,15 +918,19 @@ h2 {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 767px) {
+  
   .strongroom-features {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0 !important;
+    margin-right: 1.5rem !important;
     flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
   .strongroom-features div {
-    width: 90vw;
+    width: 85vw !important;
     margin: 1rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -928,21 +941,6 @@ h2 {
     font-size: 1rem;
     text-align: center;
   }
-
-  /* .strongroom-features div img {
-    height: 2rem;
-    width: 2rem;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .strongroom-features div h3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  } */
 
 
 }
@@ -1006,14 +1004,29 @@ h2 {
 
 .our-location img {
   width: 90vw;
+
 }
 
 .our-location .contact-info div {
   padding: 1rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-bottom: 0;
 }
 
+.our-location .contact-info div img {
+  padding-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+  padding-right: 0;
+}
+
+.our-location .contact-info div label {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
   .our-location .contact-info p {
     padding-top: .7rem;
@@ -1100,8 +1113,10 @@ h2 {
   .section-title {
     margin: 0.5rem;
   }
+
   .faqs-section {
     flex-direction: column;
+    margin: 1rem;
   }
 
   .faqs-section div {
@@ -1117,7 +1132,6 @@ h2 {
   }
 
   .faqs-section .answer {
-    /* margin-left: 0.5rem; */
     margin-right: 1rem;
     font-size: 1.2rem;
   }

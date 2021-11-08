@@ -1177,4 +1177,25 @@ h2 {
   font-weight: 600;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  .our-partners {
+    width: 100vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .our-partners div h3 {
+    font-size: 1.5rem !important;
+  }
+
+  .our-partners div p {
+    font-size: 1rem;
+  }
+}
+
 /* End of styling for our partners section */

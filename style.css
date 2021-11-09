@@ -1172,6 +1172,16 @@ h2 {
   padding-right: 2rem;
 }
 
+#giant-pool-logo {
+  width: 17rem;
+  height: 6rem;
+}
+
+#survnet-logo {
+  width: 13rem;
+  height: 6rem;
+}
+
 .our-partners div p {
   font-size: 1.2rem;
   font-weight: 600;

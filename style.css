@@ -1233,15 +1233,18 @@ h2 {
     margin-bottom: 3rem;
   }
   .our-partners div {
+    width: 100vw;
     white-space: nowrap !important;
   }
 
   .our-partners div h3 {
     font-size: 1.5rem !important;
+    white-space: nowrap !important;
   }
 
   .our-partners div p {
     font-size: 1rem;
+    white-space: nowrap !important;
   }
 }
 

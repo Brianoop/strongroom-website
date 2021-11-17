@@ -1232,6 +1232,9 @@ h2 {
     align-items: center;
     margin-bottom: 3rem;
   }
+  .our-partners div {
+    white-space: nowrap !important;
+  }
 
   .our-partners div h3 {
     font-size: 1.5rem !important;
